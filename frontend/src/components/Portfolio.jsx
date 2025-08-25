@@ -26,7 +26,6 @@ const Portfolio = () => {
         <Skills data={portfolioData.skills} />
         <Experience data={portfolioData.experience} />
         <Projects data={portfolioData.projects} />
-        <Testimonials data={portfolioData.testimonials} />
         <Contact data={portfolioData.contact} />
       </main>
       <Footer />
