@@ -5,7 +5,6 @@ import About from "./About";
 import Skills from "./Skills";
 import Experience from "./Experience";
 import Projects from "./Projects";
-import Testimonials from "./Testimonials";
 import Contact from "./Contact";
 import Footer from "./Footer";
 import { mockData } from "../data/mock";
