@@ -28,7 +28,6 @@ const Footer = () => {
                 <li><a href="#skills" className="footer-link">Skills</a></li>
                 <li><a href="#experience" className="footer-link">Experience</a></li>
                 <li><a href="#projects" className="footer-link">Projects</a></li>
-                <li><a href="#testimonials" className="footer-link">Testimonials</a></li>
                 <li><a href="#contact" className="footer-link">Contact</a></li>
               </ul>
             </div>
