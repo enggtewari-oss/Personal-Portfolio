@@ -319,7 +319,7 @@ html {
   display: inline-flex;
   align-items: center;
   gap: var(--space-xs);
-  background: rgba(217, 251, 6, 0.1);
+  background: rgba(59, 130, 246, 0.15);
   color: var(--brand-primary);
   padding: var(--space-xs) var(--space-sm);
   border-radius: var(--border-radius-full);
@@ -327,6 +327,8 @@ html {
   font-weight: 500;
   text-transform: uppercase;
   letter-spacing: 0.05em;
+  border: 1px solid rgba(59, 130, 246, 0.2);
+  backdrop-filter: blur(10px);
 }
 
 .hero-title {
