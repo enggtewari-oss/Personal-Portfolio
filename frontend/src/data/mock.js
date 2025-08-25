@@ -4,7 +4,8 @@ export const mockData = {
     title: "Senior Project Manager",
     tagline: "Transforming complex challenges into successful digital solutions with 15+ years of expertise in Program Management, Cloud Technologies, and Team Leadership",
     location: "Pune, India",
-    yearsExperience: "15+"
+    yearsExperience: "15+",
+    heroImage: "https://images.unsplash.com/photo-1718220216044-006f43e3a9b1?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2NzR8MHwxfHNlYXJjaHwxfHxwcm9mZXNzaW9uYWwlMjBidXNpbmVzcyUyMHdvcmtzcGFjZXxlbnwwfHx8fDE3NTYxNDQ2Nzh8MA&ixlib=rb-4.1.0&q=85"
   },
   about: {
     summary: "Experienced Program manager with 15 years of experience in Project management, Hybrid service delivery and product management with Network IT Infra, Cloud (AWS & Azure) & digital Portfolios. Proven expertise in Agile Product development, experienced in effective stakeholder engagement, Cross functional teams handling, financial Planning, people management, design thinking, vendor management, client relationship management and building winning Teams.",
@@ -126,6 +127,32 @@ export const mockData = {
       impact: "Improved operational efficiency and security posture",
       duration: "15 months",
       teamSize: "20+ members"
+    }
+  ],
+  testimonials: [
+    {
+      id: 1,
+      name: "Sarah Mitchell",
+      position: "VP of Operations",
+      company: "Telstra Global Services",
+      image: "https://images.unsplash.com/photo-1553268100-4c2734aacf7c?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2NzR8MHwxfHNlYXJjaHwyfHxwcm9mZXNzaW9uYWwlMjBidXNpbmVzcyUyMHdvcmtzcGFjZXxlbnwwfHx8fDE3NTYxNDQ2Nzh8MA&ixlib=rb-4.1.0&q=85",
+      testimonial: "Rajesh consistently delivered exceptional results on our most challenging projects. His ability to manage complex stakeholder requirements while maintaining project timelines is remarkable. The SDWAN transformation project he led saved us millions and set new standards for our operations."
+    },
+    {
+      id: 2,
+      name: "Michael Chen",
+      position: "Director of Technology",
+      company: "Enterprise Solutions Inc.",
+      image: "https://images.unsplash.com/photo-1739287088635-444554e7ac0e?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2NzR8MHwxfHNlYXJjaHwzfHxwcm9mZXNzaW9uYWwlMjBidXNpbmVzcyUyMHdvcmtzcGFjZXxlbnwwfHx8fDE3NTYxNDQ2Nzh8MA&ixlib=rb-4.1.0&q=85",
+      testimonial: "Working with Rajesh was a game-changer for our digital transformation initiatives. His deep understanding of both technical and business aspects, combined with excellent people management skills, made him an invaluable asset to our team."
+    },
+    {
+      id: 3,
+      name: "Emma Rodriguez",
+      position: "Chief Information Officer",
+      company: "Global Banking Corp",
+      image: "https://images.unsplash.com/photo-1740933084056-078fac872bff?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2NzR8MHwxfHNlYXJjaHw0fHxwcm9mZXNzaW9uYWwlMjBidXNpbmVzcyUyMHdvcmtzcGFjZXxlbnwwfHx8fDE3NTYxNDQ2Nzh8MA&ixlib=rb-4.1.0&q=85",
+      testimonial: "Rajesh's leadership during our banking system separation project was exemplary. He navigated complex regulatory requirements and stakeholder concerns with professionalism, delivering zero-disruption service transition. Highly recommended for mission-critical initiatives."
     }
   ],
   contact: {

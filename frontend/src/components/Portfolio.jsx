@@ -5,6 +5,7 @@ import About from "./About";
 import Skills from "./Skills";
 import Experience from "./Experience";
 import Projects from "./Projects";
+import Testimonials from "./Testimonials";
 import Contact from "./Contact";
 import Footer from "./Footer";
 import { mockData } from "../data/mock";
@@ -26,6 +27,7 @@ const Portfolio = () => {
         <Skills data={portfolioData.skills} />
         <Experience data={portfolioData.experience} />
         <Projects data={portfolioData.projects} />
+        <Testimonials data={portfolioData.testimonials} />
         <Contact data={portfolioData.contact} />
       </main>
       <Footer />

@@ -1,5 +1,5 @@
 import React from "react";
-import { ArrowRight, MapPin, Calendar } from "lucide-react";
+import { ArrowRight, MapPin, Calendar, Award, Users } from "lucide-react";
 
 const Hero = ({ data }) => {
   const handleContactClick = () => {
@@ -19,6 +19,11 @@ const Hero = ({ data }) => {
   return (
     <section id="hero" className="hero-section">
       <div className="hero-background">
+        <img 
+          src={data?.heroImage} 
+          alt="Professional workspace" 
+          className="hero-image"
+        />
         <div className="hero-overlay"></div>
       </div>
       
@@ -33,11 +38,30 @@ const Hero = ({ data }) => {
               <Calendar size={16} />
               {data?.yearsExperience} Years Experience
             </span>
+            <span className="hero-badge">
+              <Award size={16} />
+              PMP Certified
+            </span>
           </div>
           
           <h1 className="hero-title">{data?.name}</h1>
           <h2 className="hero-subtitle">{data?.title}</h2>
           <p className="hero-description">{data?.tagline}</p>
+          
+          <div className="hero-stats">
+            <div className="hero-stat">
+              <div className="stat-number">45M+</div>
+              <div className="stat-label">AUD Projects</div>
+            </div>
+            <div className="hero-stat">
+              <div className="stat-number">32+</div>
+              <div className="stat-label">Team Members</div>
+            </div>
+            <div className="hero-stat">
+              <div className="stat-number">15+</div>
+              <div className="stat-label">Years Experience</div>
+            </div>
+          </div>
           
           <div className="hero-actions">
             <button onClick={handleContactClick} className="btn-primary">
