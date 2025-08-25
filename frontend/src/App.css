@@ -356,6 +356,39 @@ html {
   max-width: 600px;
 }
 
+.hero-stats {
+  display: flex;
+  gap: var(--space-xl);
+  margin: var(--space-xl) 0;
+  flex-wrap: wrap;
+}
+
+.hero-stat {
+  text-align: center;
+  padding: var(--space-lg);
+  background: rgba(59, 130, 246, 0.1);
+  border-radius: var(--border-radius-lg);
+  border: 1px solid rgba(59, 130, 246, 0.2);
+  backdrop-filter: blur(10px);
+  min-width: 120px;
+}
+
+.hero-stat .stat-number {
+  font-size: 2rem;
+  font-weight: 900;
+  color: var(--brand-primary);
+  line-height: 1;
+  margin-bottom: var(--space-xs);
+}
+
+.hero-stat .stat-label {
+  font-size: 0.875rem;
+  color: var(--text-secondary);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-weight: 500;
+}
+
 .hero-actions {
   display: flex;
   gap: var(--space-lg);
